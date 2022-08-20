@@ -1,5 +1,3 @@
-API_KEY = "5780056962:AAG3fRfuk3uJ6GzYUUCdA2ldEmfs5rfVoHo"
-
 intro = "Welcome to Aishan The Legend! \nThis RPG game is currently under development... \nWait for open beta!"
 
 introtr = "Aishan Efsanesine hoş geldin!! \nBu RPG oyunu şuan geliştirme aşamasında... \nAçık beta için beklemede kal!"
