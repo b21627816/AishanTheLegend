@@ -2,6 +2,7 @@ import constants as const
 import telebot
 import time
 import os
+import monsters as mt
 
 API_KEY = os.environ.get("API_KEY")
 bot = telebot.TeleBot(API_KEY)
