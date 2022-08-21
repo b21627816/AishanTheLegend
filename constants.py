@@ -1,7 +1,5 @@
 intro = "Welcome to Aishan The Legend! \nThis RPG game is currently under development... \nWait for open beta!"
 
-introtr = "Aishan Efsanesine hoş geldin!! \nBu RPG oyunu şuan geliştirme aşamasında... \nAçık beta için beklemede kal!"
-
 fire_thumbsUp = "CAACAgIAAxkBAAEFnyNjAAHziT3cvAfDvUh0xYWuG78PvfcAAmgRAAKFjyhJydwtNZ-SPOkpBA"
 
 dev_photo = "https://img.freepik.com/free-vector/engineers-working-construction-illustration_23-2148887721.jpg?w=2000"

@@ -1,4 +1,5 @@
 import constants as const
+import constantstr as consttr
 import telebot
 import time
 import os
@@ -15,7 +16,7 @@ def at_answer(message):
         bot.send_photo(message.chat.id,const.dev_photo,caption=const.intro)
         #bot.send_sticker(message.chat.id,const.fire_thumbsUp)
     elif text in ["başlat","yardım","yardim"]:
-        bot.send_photo(message.chat.id,const.dev_photo,caption=const.introtr)
+        bot.send_photo(message.chat.id,const.dev_photo,caption=consttr.intro)
         #bot.send_sticker(message.chat.id,const.fire_thumbsUp)
     else:
         bot.send_message(message.chat.id,const.error)
