@@ -14,7 +14,7 @@ Our way to make the game more easy to play is adding buttons. Eventually, all th
 
 Secondly, we want to solve mistyping problem. Because of that decided to go with no prefix. According to menu you in, without prefix you will be able to use the command. And of course there will be shortenings too.
 
-And maybe in time, we could add an ai to figure out common mistyping problems then make the bot can even work with those mistypings. But I suppose for this, there is much more time.
+And maybe in time, we could add an AI to figure out common mistyping problems then make the bot can even work with those mistypings. But I suppose for this, there is much more time.
 ***
 ## Our Revenue Model:
 At first step, we didn't focus on income. But in time, we will need some money to rent servers, hire programmers to provide new features and maintenance. So eventually, we could be first AI based RPG in the world.
