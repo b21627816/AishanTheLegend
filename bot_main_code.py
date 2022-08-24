@@ -14,7 +14,7 @@ def at_answer(message):
     global languagecounter
     text = message.text.lower()
     print(languagecounter)
-    if text in ["start","help","english"]:
+    if text in ["start","help","english","/start"]:
         bot.send_photo(message.chat.id,const.dev_photo,caption=const.intro,reply_markup=bt.markuplanguage)
         #bot.send_sticker(message.chat.id,const.fire_thumbsUp)
         if text in ["english"]:
