@@ -24,10 +24,8 @@ To earn money for now we have 2 options. First one is Patreon or Kickstarter. Se
 ## Our Team:
 -Ömer Kenan Uçmaklıoğlu
 
--TheTavuk
+-Emre Yazıcı
 
 -Yasin Metekaan İnevi
 
 -Halil Batuhan Karakoç
-
--Emre Yazıcı
