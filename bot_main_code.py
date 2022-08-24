@@ -29,6 +29,8 @@ def at_answer(message):
             bot.send_message(message.chat.id,const.error)
         elif languagecounter == 2:
             bot.send_message(message.chat.id,consttr.error)
+        else:
+            bot.send_message(message.chat.id,const.error)
         
 while True:
     try:
