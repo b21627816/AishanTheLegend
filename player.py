@@ -2,16 +2,34 @@ inventory=[]
 hp = 100
 xp = 0
 chatid = 0
+level = 1
+weapon = "none"
+heal = 0
 class player:
     global inventory
     global hp
     global xp
+    global level
+    global weapon
+    global heal
+    if xp == 100:
+        level = level + 1
+        xp = 0
+    def healcondition(a):
+        global heal
+        heal = a
+    def healing():
+        global heal
+        return heal
+    def lvl():
+        global level
+        return level
     def health():
         global hp
         return hp
-    def zerohp():
+    def hpconfig(k):
         global hp
-        hp = 0
+        hp = k
     def dechp(a):
         global hp
         hp = hp - a
@@ -38,4 +56,9 @@ class player:
         return inventory
     def power():
         return 10
-
+    def weaponchange(weaponname):
+        global weapon
+        weapon = str(weaponname)
+    def usedweapon():
+        global weapon
+        return weapon

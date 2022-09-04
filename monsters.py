@@ -3,22 +3,27 @@ class haund:
     power = 7
     xp = 10
     name = "haund"
+    id = 0
 
 class slime:
     hp = 30
     power = 12
     xp = 10
     name = "slime"
+    id = 1
 
 class worm:
     hp = 50
     power = 9
     xp = 10
     name = "worm"
+    id = 2
 
 class healer:
-    def heal():
-        return "full"
+    name = "healer"
+    hp = 100000000
+    power = 0
+    id = 3
     xp = 1
 
 class rapidhaund:
