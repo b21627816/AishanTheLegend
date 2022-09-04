@@ -1,14 +1,26 @@
 import constants as const
 import constantstr as consttr
 import buttons as bt
+from database.monster import Monster
 import telebot
 import time
 import os
-import monsters as mt
+from dotenv import load_dotenv, find_dotenv
 
-API_KEY = os.environ.get("API_KEY")
+from database.database import session
+
+load_dotenv(find_dotenv())
+
+
+API_KEY = os.getenv("API_KEY")
 bot = telebot.TeleBot(API_KEY)
 languagecounter = 0
+
+
+monsterList = session.query(Monster).all()
+
+for m in monsterList:
+    print(m)
 
 
 @bot.message_handler(func=lambda msg: msg.text is not None)
