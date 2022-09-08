@@ -24,12 +24,6 @@ bot = telebot.TeleBot(API_KEY)
 languagecounter = 0
 
 
-monsterList = session.query(Monster).all()
-
-for m in monsterList:
-    print(m)
-
-
 @bot.message_handler(func=lambda msg: msg.text is not None)
 def at_answer(message):
     global character
