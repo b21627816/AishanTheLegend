@@ -1,24 +1,30 @@
 class haund:
-    def hp():
-        return 70
-    def power():
-        return 7
+    hp = 70
+    power = 7
+    xp = 10
+    name = "haund"
+    id = 0
 
 class slime:
-    def hp():
-        return 30
-    def power():
-        return 12
+    hp = 30
+    power = 12
+    xp = 10
+    name = "slime"
+    id = 1
 
 class worm:
-    def hp():
-        return 50
-    def power():
-        return 9
+    hp = 50
+    power = 9
+    xp = 10
+    name = "worm"
+    id = 2
 
 class healer:
-    def hp():
-        return "full"
+    name = "healer"
+    hp = 100000000
+    power = 0
+    id = 3
+    xp = 1
 
 class rapidhaund:
     def hp():

@@ -9,3 +9,9 @@ Supported Commands:
 -Start
 -Help
 commands are not case sensetive."""
+
+healer = "You encountered with healer. She full filled your hp!"
+
+menu = "This is main menu, you can chose your path with buttons."
+inv = "Your Inventory:"
+lost = "You lost the combat and you must rest!"

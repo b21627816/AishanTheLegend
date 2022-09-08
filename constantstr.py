@@ -5,3 +5,5 @@ Desteklenen Komutlar:
 -Başlat
 -Yardım
 komutlar harf büyüklüğüne duyarlı değildir."""
+
+beta = """Şuan oyunda sadece ingilizce dil seçeneği desteklenmektedir."""
