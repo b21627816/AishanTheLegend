@@ -12,9 +12,6 @@ class player:
     global level
     global weapon
     global heal
-    if xp == 100:
-        level = level + 1
-        xp = 0
     def healcondition(a):
         global heal
         heal = a
@@ -41,7 +38,17 @@ class player:
         return xp
     def repxp(b):
         global xp
+        global level
         xp = xp + b
+        if xp == 100 and level == 1:
+            level = level + 1
+            xp = 0
+        elif xp == 150 and level == 2:
+            level = level + 1
+            xp = 0
+        elif xp == 300 and level == 3:
+            level = level + 1
+            xp = 0
     def id(c):
         global chatid
         chatid = c

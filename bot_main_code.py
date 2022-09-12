@@ -62,13 +62,13 @@ def at_answer(message):
             if character.healing() == 0 :
                 break
             character.inchp(1)
-            #time.sleep(1)
+            time.sleep(1)
         if character.healing() == 1 :
             bot.send_message(message.chat.id,"Your full! Current hp : " + str(character.health()),reply_markup=bt.markupmenu)
         else:
             bot.send_message(message.chat.id,"Current hp : " + str(character.health()),reply_markup=bt.markupmenu)
     elif text in ["profile","prf"]:
-        character.healcondition(0)
+        character.healcondition(1)
         profile_feedback = "\tYour level : " + str(character.lvl()) + "\nYour hp : " + str(character.health()) + "\nEquipped Weapon : " + character.usedweapon() + "\nCurrent Exp: : " + str(character.experience())
         bot.send_message(message.chat.id,profile_feedback,reply_markup=bt.markupmenu)
     else:
